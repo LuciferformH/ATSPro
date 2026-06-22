@@ -645,8 +645,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with care for job seekers everywhere**
 
-[Star this repo](https://github.com/yourusername/ATSPro/stargazers) | [Report Bug](https://github.com/yourusername/ATSPro/issues) | [Request Feature](https://github.com/yourusername/ATSPro/issues)
 
 </div>
