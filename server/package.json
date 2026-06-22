@@ -1,0 +1,40 @@
+{
+  "name": "atspro-server",
+  "version": "1.0.0",
+  "description": "ATSPro Backend - AI Resume Builder & ATS Checker API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step needed for Node.js'",
+    "lint": "eslint src/",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "@google/generative-ai": "^0.2.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.11.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.55.0",
+    "jest": "^29.7.0"
+  },
+  "keywords": ["ats", "resume", "ai", "gemini", "job-matching"],
+  "author": "ATSPro Team",
+  "license": "MIT"
+}
